@@ -1,0 +1,274 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+ul,
+li,
+dl,
+dt,
+dd,
+table,
+th,
+td {
+  margin: 0px;
+  padding: 0px;
+  font-size: 13px;
+  line-height: 160%;
+}
+body {
+  font: "Osaka", Arial, sans-serif;
+  padding: 120px 0px 0px 0px;
+  background: #334d0f;
+}
+html {
+  overflow-y: scroll;
+}
+img {
+  border: none;
+}
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+}
+.alpha {
+  behavior: url(/images/iepngfix.htc);
+}
+.tLeft {
+  text-align: left;
+}
+.tRight {
+  text-align: right;
+}
+.tCenter {
+  text-align: center;
+}
+.large {
+  font-weight: bold;
+  font-size: 120%;
+}
+.bold {
+  font-weight: bold;
+}
+.clearing {
+  clear: both;
+  height: 0px;
+  width: 0px;
+}
+a:hover {
+  color: #f00;
+  text-decoration: underline;
+}
+.clearfix {
+  min-height: 1px;
+  height: auto !important;
+  height: 1px;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.iphone_menu {
+  display: none;
+}
+#Header {
+  width: 100%;
+  height: 82px;
+  padding-top: 38px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 9999;
+}
+#Header h1 {
+  width: 100px;
+  float: left;
+  margin: 5px 20px 0px 20px;
+  display: inline;
+}
+#Header li {
+  width: 72px;
+  float: left;
+  margin-right: 10px;
+}
+#Record {
+  position: fixed;
+  top: -210px;
+  left: 500px;
+  z-index: 10000;
+}
+#Background {
+  behavior: url(/images/iepngfix.htc);
+  background: url(/images/header_bg.png) no-repeat left top;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 120px;
+  z-index: 5000;
+}
+* html #Header {
+  position: absolute;
+}
+* html #Background {
+  position: absolute;
+}
+* html #Record {
+  position: absolute;
+}
+.container {
+  width: 570px;
+  padding-top: 10px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.container h2 {
+  width: 530px;
+  height: 37px;
+  padding: 20px 20px 0px 20px;
+  background: url(/images/container_top.gif) no-repeat left top;
+}
+.container .contents {
+  width: 530px;
+  padding: 0px 20px 20px;
+  background: #ffffff url(/images/container_bottom.gif) no-repeat left bottom;
+}
+.container .section {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px #aaaaaa dashed;
+}
+.container .h3 {
+  color: #ba2a52;
+  margin-bottom: 10px;
+  padding: 3px 5px;
+  font-size: 16px;
+  background: #eaeaea;
+}
+.container p, .container ul {
+  margin-bottom: 10px;
+}
+#Past_Info h5.title, #Past_Live h5.title {
+  font-size: 160%;
+  color: #ba2a52;
+}
+#Info #NextLiveInfo {
+  font-size: 120%;
+}
+#Info #NextLiveInfo h3 {
+  padding: 0px;
+  background: none;
+}
+#Live ul {
+  margin: 0px;
+  background: none;
+}
+#Live li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+#Live h3 {
+  background: #eaeaea;
+  padding: 3px 5px;
+}
+#Live .section ul {
+  padding: 10px;
+  border: 1px #aaa solid;
+  margin-bottom: 10px;
+}
+#Disc .jacket {
+  width: 120px;
+  float: left;
+  font-size: 80%;
+}
+#Disc .jacket img {
+  width: 120px;
+}
+#Disc .jacket a {
+  text-decoration: none;
+  display: block;
+}
+#Disc .jacket a:hover {
+  background: #e7e3bc;
+}
+#Disc .jacket p {
+  margin-top: 10px;
+}
+#Disc .text {
+  width: 400px;
+  float: right;
+}
+#Disc .text ul {
+  padding: 10px;
+  background: #fff9e5;
+  border: 1px #aaa solid;
+}
+#Disc h2.works {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 0px;
+  background: none;
+}
+#Mail table th {
+  width: 30%;
+  text-align: left;
+}
+#Mail table th, #Mail table td {
+  padding: 5px 0px;
+}
+#Mail #Name, #Mail #Adress, #Mail #Subject {
+  width: 350px;
+}
+#Mail #Contents {
+  width: 350px;
+  height: 100px;
+}
+#Mail form p {
+  margin-top: 5px;
+  text-align: center;
+}
+#Mail form p input {
+  margin-right: 10px;
+}
+#Copy {
+  margin: 10px 0px 0px 20px;
+  padding-bottom: 100px;
+  color: #ffffff;
+}
+#BottomMargin {
+  display: block;
+}
+#LinkImage {
+  position: absolute;
+  top: 330px;
+  left: 610px;
+  z-index: 1000;
+}
+#LinkImage li {
+  font-size: 10px;
+  color: #ffffff;
+}
+#LinkImage a {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+#LinkImage a:hover {
+  text-decoration: underline;
+}
+#LinkImage img {
+  display: block;
+}
+#LinkImage #TwitterArea {
+  margin-top: 20px;
+}
